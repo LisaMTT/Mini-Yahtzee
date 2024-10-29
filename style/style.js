@@ -1,0 +1,251 @@
+import { StyleSheet } from 'react-native';
+
+const primaryColor = '#ff4081';
+const secondaryColor = '#943888';
+const backgroundColor = '#f5f5f5';
+const textColor = '#333';
+
+export default StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: backgroundColor,
+    alignItems: 'center',
+    justifyContent: 'center',
+    padding: 20,
+  },
+  header: {
+    marginTop: 30,
+    marginBottom: 15,
+    backgroundColor: primaryColor,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: 10,
+  },
+  footer: {
+    backgroundColor: primaryColor,
+    padding: 10,
+    width: '100%',
+    alignItems: 'center',
+  },
+  title: {
+    color: '#fff',
+    fontWeight: 'bold',
+    fontSize: 24,
+    textAlign: 'center',
+    fontFamily: 'monospace',
+  },
+  author: {
+    color: '#fff',
+    fontWeight: 'bold',
+    fontSize: 12,
+    textAlign: 'center',
+    margin: 10,
+    fontFamily: 'monospace',
+  },
+  gameboard: {
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  gameinfo: {
+    backgroundColor: '#fff',
+    textAlign: 'center',
+    fontSize: 15,
+    color: textColor,
+    fontFamily: 'monospace',
+  },
+  row: {
+    padding: 10,
+    marginTop: 20,
+  },
+  flex: {
+    flexDirection: 'row',
+  },
+  button: {
+    margin: 20,
+    padding: 15,
+    backgroundColor: '#6a1b9a',
+    borderRadius: 12,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  buttonText: {
+    color: '#fff',
+    fontSize: 15,
+    fontWeight: 'bold',
+    fontFamily: 'monospace',
+  },
+  playerName: {
+    color: textColor,
+    fontSize: 11,
+    margin: 10,
+    fontFamily: 'monospace',
+  },
+  okbutton: {
+    color: '#ffffff',
+    margin: 15,
+    padding: 15,
+    backgroundColor: secondaryColor,
+    borderRadius: 15,
+    justifyContent: 'center',
+    alignItems: 'center',
+    fontFamily: 'monospace',
+  },
+  tabBarActive: {
+    color: '#d600b2',
+  },
+  tabBarInactive: {
+    color: '#7c7b7c', 
+  },
+  text: {
+    color: secondaryColor,
+    fontWeight: 'bold',
+    fontSize: 20,
+    textAlign: 'center',
+    fontFamily: 'monospace',
+    padding: 10,
+  },
+  headerContainer: {
+    flex: 0,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  infoIcon: {
+    fontSize: 50,
+    color: primaryColor,
+    padding: 10,
+  },
+  dicesIcon: {
+    fontSize: 50,
+    color: primaryColor,
+    padding: 1,
+  },
+  TextInput: {
+    padding: 5,
+    backgroundColor: 'pink',
+    borderRadius: 10,
+  },
+  multiline: {
+    color: secondaryColor,
+    fontSize: 15,
+    textAlign: 'center',
+    fontFamily: 'monospace',
+    padding: 10,
+  },
+  tabScreen: {
+    color: secondaryColor,
+    fontWeight: 'bold',
+    fontSize: 20,
+    textAlign: 'center',
+    fontFamily: 'monospace',
+    padding: 10,
+  },
+  throwDice: {
+    margin: 15,
+    padding: 15,
+    backgroundColor: secondaryColor,
+    borderRadius: 15,
+    justifyContent: 'center',
+    alignItems: 'center',
+    color: 'white',
+  },
+  saveButton: {
+    backgroundColor: secondaryColor,
+    borderRadius: 15,
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: 15,
+    margin: 15,
+  },
+  saveButtonText: {
+    color: '#ffffff',
+    fontSize: 11,
+    fontWeight: 'bold',
+    fontFamily: 'monospace',
+  },
+  disabledButton: {
+    backgroundColor: '#555154',
+  },
+  icon: {
+    color: primaryColor,
+  },
+  scoreboardContainer: {
+    flex: 1,
+    padding: 20,
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  subtitle: {
+    fontSize: 20,
+    fontWeight: '500',
+    color: '#555',
+    textAlign: 'center',
+    marginBottom: 20,
+    fontFamily: 'monospace',
+  },
+  scoreList: {
+    flexGrow: 1,
+    maxHeight: '60%',
+    width: '100%',
+    marginVertical: 15,
+    paddingHorizontal: 10,
+  },
+  scoreItem: {
+    paddingVertical: 8,
+    paddingHorizontal: 12,
+    borderBottomWidth: 1,
+    borderBottomColor: '#ddd',
+  },
+  scoreText: {
+    fontSize: 16,
+    color: textColor,
+    fontFamily: 'monospace',
+  },
+  scoreDetails: {
+    fontSize: 16,
+    color: '#777',
+    fontFamily: 'monospace',
+  },
+  scorePoints: {
+    fontWeight: 'bold',
+    fontSize: 18,
+    color: textColor,
+    fontFamily: 'monospace',
+  },
+  noScoresText: {
+    textAlign: 'center',
+    color: '#777',
+    fontSize: 16,
+    fontFamily: 'monospace',
+  },
+  clearButton: {
+    backgroundColor: '#ff008c',
+    padding: 15,
+    borderRadius: 8,
+    alignItems: 'center',
+    marginTop: 10,
+  },
+  clearButtonText: {
+    color: '#fff',
+    fontSize: 18,
+    fontWeight: 'bold',
+    fontFamily: 'monospace',
+  },
+  clipboardIcon: {
+    fontSize: 50,
+    color: primaryColor,
+    padding: 10,
+  },
+  selectRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  pointsRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingLeft: 16,
+  },
+});

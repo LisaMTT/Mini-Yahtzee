@@ -82,6 +82,12 @@ export default StyleSheet.create({
     margin: 10,
     fontFamily: 'monospace',
   },
+  totalPoints: {
+    color: textColor,
+    fontSize: 15,
+    margin: 10,
+    fontFamily: 'monospace',
+  },
   okbutton: {
     color: '#ffffff',
     margin: 15,

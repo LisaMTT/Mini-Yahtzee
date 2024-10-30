@@ -214,6 +214,7 @@ const Gameboard = ({ route, navigation }) => {
                 >
                     <Text style={styles.buttonText}>THROW DICES</Text>
                 </Pressable>
+                <Text style={styles.totalPoints}> Total points:{totalPoints}</Text>
                 <Container style={styles.pointsRow} >
                     <Row>{pointsRow}</Row>
                 </Container>
